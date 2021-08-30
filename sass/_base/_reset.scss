@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-size: 16px;
+    font-family: 'Roboto';
+  }
+  * {
+    box-sizing: border-box;
+  }
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+
+ul {
+
+  padding: 0px;
+  margin: 0;
+
+}
+
+  li {
+    list-style-type: none;
+  }
+    // margin: 0;
+
+  h4{ 
+    margin-block-start: 0.50em;
+    margin-block-end: 0.50em;
+  }
+
+
+  h6 {
+    margin: 0;
+  }

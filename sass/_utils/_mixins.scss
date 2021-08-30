@@ -1,0 +1,36 @@
+
+@mixin texte{
+
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+@mixin blockosmenu{
+    border-radius: 25px;
+    box-shadow: 4px 4px 6px #aaa;
+    margin: 20px;
+    position: relative;
+    background: #fff;
+  }
+
+  @mixin Photomenumain-img {
+    object-fit: cover;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    width: 100%;
+    height: 100%;
+    max-height: 220px;
+  }
+
+  @mixin texte {
+    margin: 0;
+    padding: 10px;
+  }
+
+      @mixin menu-header {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+
+     

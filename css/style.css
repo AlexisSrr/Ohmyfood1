@@ -516,8 +516,6 @@ h1 {
 
 .restaurant_title {
   padding-left: 20px;
-  -webkit-margin-after: 0px;
-          margin-block-end: 0px;
   -webkit-margin-before: 10px;
           margin-block-start: 10px;
 }
@@ -525,7 +523,7 @@ h1 {
 .restaurant_second {
   padding-left: 20px;
   font-weight: 100;
-  padding-top: 6px;
+  padding-bottom: 5px;
 }
 
 .new {
@@ -542,13 +540,12 @@ h1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 1px;
   width: 300px;
   color: black;
   cursor: pointer;
@@ -571,6 +568,10 @@ h1 {
   -webkit-text-fill-color: transparent;
   font-weight: bold;
   color: #9356DC;
+}
+
+.coeur {
+  padding-top: 13px;
 }
 
 /* footer */

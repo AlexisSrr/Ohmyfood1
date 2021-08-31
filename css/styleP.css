@@ -264,12 +264,23 @@ footer .fa-hands-helping {
       -ms-flex-align: center;
           align-items: center;
   padding: 10px;
+  font-size: 15px;
+}
+
+.fill__keur {
+  color: grey;
+  margin-right: 20px;
+}
+
+.fill__keur i {
+  font-size: 30px;
+  font-weight: 200;
 }
 
 .fill__keur:hover {
   -webkit-animation: fill 0.3s ease-in-out;
           animation: fill 0.3s ease-in-out;
-  display: inline-block;
+  display: block;
   opacity: 1;
   background: -webkit-gradient(linear, right top, left top, from(#9356dc), color-stop(#b35cdc), color-stop(#cf64dc), color-stop(#e86edb), to(#ff79da));
   background: linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
@@ -285,8 +296,8 @@ footer .fa-hands-helping {
 }
 
 .delay1 {
-  -webkit-animation: appear 0.4s ease-in-out;
-          animation: appear 0.4s ease-in-out;
+  -webkit-animation: appear 0.5s ease-in-out;
+          animation: appear 0.5s ease-in-out;
 }
 
 .delay2 {
@@ -295,13 +306,13 @@ footer .fa-hands-helping {
 }
 
 .delay3 {
-  -webkit-animation: appear 1.6s ease-in-out;
-          animation: appear 1.6s ease-in-out;
+  -webkit-animation: appear 1.5s ease-in-out;
+          animation: appear 1.5s ease-in-out;
 }
 
 .delay4 {
-  -webkit-animation: appear 2.2s ease-in-out;
-          animation: appear 2.2s ease-in-out;
+  -webkit-animation: appear 2s ease-in-out;
+          animation: appear 2s ease-in-out;
 }
 
 .repas {

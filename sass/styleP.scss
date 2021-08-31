@@ -42,12 +42,23 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+    font-size: 15px;
+  }
+
+  .fill__keur {
+    color: grey;
+    margin-right: 20px;
+  }
+
+  .fill__keur i { 
+    font-size: 30px;
+    font-weight: 200;
   }
 
   .fill__keur:hover{ 
 
     animation: fill 0.3s ease-in-out;
-    display: inline-block;
+    display: block;
     opacity: 1;
     background: linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
     background: -webkit-linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
@@ -55,7 +66,6 @@
     -webkit-text-fill-color: transparent;
     font-weight: bold;
     color: $couleur-1;
-  
   }
 
   .title{ 
@@ -75,7 +85,7 @@
   // }
 
   .delay1 {
-    animation: appear 0.4s ease-in-out;
+    animation: appear 0.5s ease-in-out;
   }
   
   .delay2 {
@@ -83,11 +93,11 @@
   }
   
   .delay3 {
-    animation: appear 1.6s ease-in-out;
+    animation: appear 1.5s ease-in-out;
   }
   
   .delay4 {
-    animation: appear 2.2s ease-in-out;
+    animation: appear 2s ease-in-out;
   }
 
   

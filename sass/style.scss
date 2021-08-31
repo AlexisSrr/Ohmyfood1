@@ -196,6 +196,8 @@
 
   /* Menus */
 
+  @media screen and (min-width: 750px) {
+    
   .menus {
     display: flex;
     flex-direction: column;
@@ -205,6 +207,30 @@
     // height: 210px;
     // min-width: 250px;
   }
+}
+@media screen and (min-width: 1250px) {
+    
+  .menus{ 
+    padding: 0 20%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .colonne1{ 
+    display: flex;
+  }
+
+  .colonne2 {
+    display: flex;
+  }
+  .blockosmenu { 
+    width: 40%;
+  }
+
+  } 
+
+
+
 
   .Photomenumain {
 
@@ -289,15 +315,16 @@
 .fill__keur{ 
 
   display: flex;
-
-  // justify-content: end;
+  justify-content: flex-end;
   align-items: center;
+  height: 1px;
+  width: 300px;
   // position: relative;
   // align-items: center;
-  position: absolute;
-  padding-left: 270px;
+  // position: absolute;
+  // padding-left: 270px;
   // padding-bottom: 50px;
-  padding-top: 17px;
+  // padding-top: 17px;
   color: black;
   cursor: pointer;
 
@@ -310,7 +337,7 @@
 }
 
 
-.fill__keur:hover{ 
+.fill:hover{ 
 
   animation: fill 0.3s ease-in-out;
   display: inline-block;

@@ -138,13 +138,11 @@ h6 {
 @-webkit-keyframes appear {
   0% {
     opacity: 0;
-    z-index: -1;
     -webkit-transform: translateY(1rem);
             transform: translateY(1rem);
   }
   100% {
     opacity: 1;
-    z-index: 0;
     -webkit-transform: translateY(0);
             transform: translateY(0);
   }
@@ -153,13 +151,11 @@ h6 {
 @keyframes appear {
   0% {
     opacity: 0;
-    z-index: -1;
     -webkit-transform: translateY(1rem);
             transform: translateY(1rem);
   }
   100% {
     opacity: 1;
-    z-index: 0;
     -webkit-transform: translateY(0);
             transform: translateY(0);
   }

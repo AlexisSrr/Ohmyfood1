@@ -76,43 +76,65 @@
   }
 
 
-  // @keyframes appear{
-  //   0% {
-  //     transform: scale(0);
-  //   }
-  //   100% {
-  //     transform: scale(1);
-  //   }
-  // }
-
-  .delay4 {
+  .delay1 {
     animation: appear 0.5s ease-in-out;
   }
   
-  .delay3 {
+  .delay2 {
     animation: appear 1s ease-in-out;
   }
   
-  .delay2 {
+  .delay3 {
     animation: appear 1.5s ease-in-out;
   }
   
-  .delay1 {
+  .delay4 {
     animation: appear 2s ease-in-out;
   }
 
-  
-  // .starter{
-  //   animation: appear 3s ease-in-out;
-  // }
+  @media screen and (min-width: 1250px){
+    
+    .full__menu{ 
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      // justify-content: space-between;
+      max-width: 100%;
+      // height: 600px;
+      // padding: 5%;
+    }
+    
+    .repas {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
 
-  // .repas {
-  //   animation: appear 5s ease-in-out;
-  // }
+  .starter{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    padding-right: 20px;
+   }
 
-  // .dessert {
-  //   animation: appear 7s ease-in-out;
-  // }
+   .plat{ 
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    padding-right: 20px;
+
+   }
+
+  .dessert {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    padding-right: 20px;
+
+   }
+  }
+
+
 
 
   .repas {

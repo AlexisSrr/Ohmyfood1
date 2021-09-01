@@ -138,13 +138,11 @@ h6 {
 @-webkit-keyframes appear {
   0% {
     opacity: 0;
-    z-index: -1;
     -webkit-transform: translateY(1rem);
             transform: translateY(1rem);
   }
   100% {
     opacity: 1;
-    z-index: 0;
     -webkit-transform: translateY(0);
             transform: translateY(0);
   }
@@ -153,13 +151,11 @@ h6 {
 @keyframes appear {
   0% {
     opacity: 0;
-    z-index: -1;
     -webkit-transform: translateY(1rem);
             transform: translateY(1rem);
   }
   100% {
     opacity: 1;
-    z-index: 0;
     -webkit-transform: translateY(0);
             transform: translateY(0);
   }
@@ -309,24 +305,83 @@ footer .fa-hands-helping {
   padding-left: 10px;
 }
 
-.delay4 {
+.delay1 {
   -webkit-animation: appear 0.5s ease-in-out;
           animation: appear 0.5s ease-in-out;
 }
 
-.delay3 {
+.delay2 {
   -webkit-animation: appear 1s ease-in-out;
           animation: appear 1s ease-in-out;
 }
 
-.delay2 {
+.delay3 {
   -webkit-animation: appear 1.5s ease-in-out;
           animation: appear 1.5s ease-in-out;
 }
 
-.delay1 {
+.delay4 {
   -webkit-animation: appear 2s ease-in-out;
           animation: appear 2s ease-in-out;
+}
+
+@media screen and (min-width: 1250px) {
+  .full__menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    max-width: 100%;
+  }
+  .repas {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+  .starter {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 33%;
+    padding-right: 20px;
+  }
+  .plat {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 33%;
+    padding-right: 20px;
+  }
+  .dessert {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 33%;
+    padding-right: 20px;
+  }
 }
 
 .repas {

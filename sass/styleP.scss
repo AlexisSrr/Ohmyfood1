@@ -43,7 +43,7 @@
     align-items: center;
     padding-top: 10px;
     padding-left: 15px;
-    font-size: 15px;
+    font-size: 20px;
   }
 
   .fill__keur {
@@ -127,7 +127,7 @@
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
-    box-shadow: 4px 4px 6px #aaa;
+    box-shadow: 4px 4px 6px #aaaaaa57;
     top: 0;
     transition: padding-right 450ms ease-in-out;
     }
@@ -138,7 +138,7 @@
     
   .repas:hover .cross {
     opacity: 1;
-    transform: translate(-50px);
+    transform: translate(-70px);
     }
 
   .repas:hover .fa-check-circle {
@@ -150,7 +150,7 @@
   .line {
     width: 40px;
     border: 2px solid #99E2D0;
-    margin-left: 10px;
+    margin-left: 2px;
   }
   
 
@@ -173,24 +173,26 @@
   justify-content: center;
   align-items: center;
   background-color: $couleur-3;
-  width: 50px;
+  // width: 50px;
   height: 100%;
+  width: 70px;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   position: absolute;
   padding: 20px;
-  right: -50px; 
+  right: -70px; 
   top: 0;
   transition: transform 330ms ease-in-out;
   }
   
   .cross .fa-check-circle {
     color: #fff;
+    font-size: 1.5em;
     transition: transform 500ms ease-in-out;
   }
 
-  .btn__order{ 
-    margin-top: 20px;
+  .btn__div{ 
+    margin-top: 40px;
     margin-bottom: 50px;
 }
 
@@ -206,10 +208,15 @@
     font-family: "Roboto", sans-serif;
     margin: 0 auto;
     background-image: linear-gradient(#FF79DA, #9356DC);
-    box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.25);
+    // transition: opacity 250ms, box-shadow 250ms;
+    // box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.25);
   }
 
-  .btn__order:hover {
+
+  .btn__order:hover  {
     opacity: 0.8;
-    // box-shadow: 1rem 1rem 20px rgba(0, 0, 0, 0.25);
+    transition: opacity 250ms, box-shadow 250ms;
+    box-shadow: 1rem 1rem 20px rgba(0, 0, 0, 0.25);
   }
+
+

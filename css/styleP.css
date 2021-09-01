@@ -25,11 +25,16 @@ li {
   list-style-type: none;
 }
 
+h3 {
+  font-weight: lighter;
+}
+
 h4 {
   -webkit-margin-before: 0.50em;
           margin-block-start: 0.50em;
   -webkit-margin-after: 0.50em;
           margin-block-end: 0.50em;
+  font-size: larger;
 }
 
 h6 {
@@ -265,7 +270,7 @@ footer .fa-hands-helping {
           align-items: center;
   padding-top: 10px;
   padding-left: 15px;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 .fill__keur {
@@ -333,8 +338,8 @@ footer .fa-hands-helping {
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
-  -webkit-box-shadow: 4px 4px 6px #aaa;
-          box-shadow: 4px 4px 6px #aaa;
+  -webkit-box-shadow: 4px 4px 6px #aaaaaa57;
+          box-shadow: 4px 4px 6px #aaaaaa57;
   top: 0;
   -webkit-transition: padding-right 450ms ease-in-out;
   transition: padding-right 450ms ease-in-out;
@@ -346,8 +351,8 @@ footer .fa-hands-helping {
 
 .repas:hover .cross {
   opacity: 1;
-  -webkit-transform: translate(-50px);
-          transform: translate(-50px);
+  -webkit-transform: translate(-70px);
+          transform: translate(-70px);
 }
 
 .repas:hover .fa-check-circle {
@@ -358,7 +363,7 @@ footer .fa-hands-helping {
 .line {
   width: 40px;
   border: 2px solid #99E2D0;
-  margin-left: 10px;
+  margin-left: 2px;
 }
 
 .last__line {
@@ -391,13 +396,13 @@ footer .fa-hands-helping {
       -ms-flex-align: center;
           align-items: center;
   background-color: #99E2D0;
-  width: 50px;
   height: 100%;
+  width: 70px;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   position: absolute;
   padding: 20px;
-  right: -50px;
+  right: -70px;
   top: 0;
   -webkit-transition: -webkit-transform 330ms ease-in-out;
   transition: -webkit-transform 330ms ease-in-out;
@@ -407,14 +412,15 @@ footer .fa-hands-helping {
 
 .cross .fa-check-circle {
   color: #fff;
+  font-size: 1.5em;
   -webkit-transition: -webkit-transform 500ms ease-in-out;
   transition: -webkit-transform 500ms ease-in-out;
   transition: transform 500ms ease-in-out;
   transition: transform 500ms ease-in-out, -webkit-transform 500ms ease-in-out;
 }
 
-.btn__order {
-  margin-top: 20px;
+.btn__div {
+  margin-top: 40px;
   margin-bottom: 50px;
 }
 
@@ -435,11 +441,15 @@ footer .fa-hands-helping {
   margin: 0 auto;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#FF79DA), to(#9356DC));
   background-image: linear-gradient(#FF79DA, #9356DC);
-  -webkit-box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.25);
-          box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.25);
 }
 
 .btn__order:hover {
   opacity: 0.8;
+  -webkit-transition: opacity 250ms, -webkit-box-shadow 250ms;
+  transition: opacity 250ms, -webkit-box-shadow 250ms;
+  transition: opacity 250ms, box-shadow 250ms;
+  transition: opacity 250ms, box-shadow 250ms, -webkit-box-shadow 250ms;
+  -webkit-box-shadow: 1rem 1rem 20px rgba(0, 0, 0, 0.25);
+          box-shadow: 1rem 1rem 20px rgba(0, 0, 0, 0.25);
 }
 /*# sourceMappingURL=styleP.css.map */

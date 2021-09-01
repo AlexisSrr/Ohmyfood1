@@ -34,7 +34,7 @@ h4 {
           margin-block-start: 0.50em;
   -webkit-margin-after: 0.50em;
           margin-block-end: 0.50em;
-  font-size: larger;
+  font-size: 17px;
 }
 
 h6 {
@@ -137,23 +137,31 @@ h6 {
 
 @-webkit-keyframes appear {
   0% {
-    -webkit-transform: scale(0);
-            transform: scale(0);
+    opacity: 0;
+    z-index: -1;
+    -webkit-transform: translateY(1rem);
+            transform: translateY(1rem);
   }
   100% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
+    opacity: 1;
+    z-index: 0;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
   }
 }
 
 @keyframes appear {
   0% {
-    -webkit-transform: scale(0);
-            transform: scale(0);
+    opacity: 0;
+    z-index: -1;
+    -webkit-transform: translateY(1rem);
+            transform: translateY(1rem);
   }
   100% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
+    opacity: 1;
+    z-index: 0;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
   }
 }
 

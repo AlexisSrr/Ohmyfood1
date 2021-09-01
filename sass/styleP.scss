@@ -85,19 +85,19 @@
   //   }
   // }
 
-  .delay1 {
+  .delay4 {
     animation: appear 0.5s ease-in-out;
   }
   
-  .delay2 {
+  .delay3 {
     animation: appear 1s ease-in-out;
   }
   
-  .delay3 {
+  .delay2 {
     animation: appear 1.5s ease-in-out;
   }
   
-  .delay4 {
+  .delay1 {
     animation: appear 2s ease-in-out;
   }
 
@@ -208,8 +208,8 @@
     font-family: "Roboto", sans-serif;
     margin: 0 auto;
     background-image: linear-gradient(#FF79DA, #9356DC);
-    // transition: opacity 250ms, box-shadow 250ms;
-    // box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.25);
+    transition: opacity 250ms, box-shadow 250ms;
+    box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.25);
   }
 
 

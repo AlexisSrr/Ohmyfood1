@@ -196,7 +196,7 @@
 
   /* Menus */
 
-  @media screen and (min-width: 750px) {
+  @media screen and (min-width: 768px) {
     
   .menus {
     display: flex;
@@ -225,6 +225,11 @@
   }
   .blockosmenu { 
     width: 40%;
+  }
+
+  .fill__keur { 
+
+
   }
 
   } 
@@ -317,8 +322,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-right: 20px;
   // height: 1px;
-  width: 300px;
+  // width: 300px;
   // position: relative;
   // align-items: center;
   // position: absolute;

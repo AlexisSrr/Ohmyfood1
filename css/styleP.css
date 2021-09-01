@@ -277,7 +277,7 @@ footer .fa-hands-helping {
   font-weight: 200;
 }
 
-.fill__keur:hover {
+.fill:hover {
   -webkit-animation: fill 0.3s ease-in-out;
           animation: fill 0.3s ease-in-out;
   display: block;

@@ -6,7 +6,8 @@
 @import "_utils/_mixins";
 @import "_utils/_variables";
 @import "_utils/_keyframes";
-@import "_layouts/_footer";
+@import "_components/_btn.scss";
+@import "_layouts/_footer.scss";
 @import "_layouts/_header";
 
 
@@ -43,7 +44,8 @@
     align-items: center;
     padding-top: 10px;
     padding-left: 15px;
-    font-size: 20px;
+    font-size: 21px;
+    font-weight: 500;
   }
 
   .fill__keur {
@@ -171,7 +173,7 @@
   
   .line {
     width: 40px;
-    border: 2px solid #99E2D0;
+    border: 2px solid $couleur-3;
     margin-left: 2px;
   }
   
@@ -204,7 +206,7 @@
   padding: 20px;
   right: -70px; 
   top: 0;
-  transition: transform 330ms ease-in-out;
+  transition: transform 430ms ease-in-out;
   }
   
   .cross .fa-check-circle {
@@ -213,34 +215,8 @@
     transition: transform 500ms ease-in-out;
   }
 
-  .btn__div{ 
-    // display: inline-block;
-    // align-items: center;
-    margin-top: 40px;
-    margin-bottom: 50px;
+.bouton { 
+display: flex;
+padding-top: 20px;
+padding-bottom: 30px;
 }
-
-  .btn__order a {
-    display: flex;
-    align-items: center;
-    padding: 0.75rem 1.5rem;
-    border-radius: 30px;
-    text-align: center;
-    color: #FFF;
-    font-weight: normal;
-    font-size: 15px;
-    font-family: "Roboto", sans-serif;
-    margin: 0 auto;
-    background-image: linear-gradient(#FF79DA, #9356DC);
-    transition: opacity 250ms, box-shadow 250ms;
-    box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.25);
-  }
-
-
-  .btn__order:hover  {
-    opacity: 0.8;
-    transition: opacity 250ms, box-shadow 250ms;
-    box-shadow: 1rem 1rem 20px rgba(0, 0, 0, 0.25);
-  }
-
-

@@ -35,6 +35,7 @@ h4 {
   -webkit-margin-after: 0.50em;
           margin-block-end: 0.50em;
   font-size: 17px;
+  font-weight: 900;
 }
 
 h6 {
@@ -161,6 +162,40 @@ h6 {
   }
 }
 
+.btn {
+  padding: 0.75rem 1.5rem;
+  border-radius: 30px;
+  text-align: center;
+  color: #FFF;
+  font-weight: normal;
+  font-size: 15px;
+  margin: 0 auto;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#FF79DA), to(#9356DC));
+  background-image: linear-gradient(#FF79DA, #9356DC);
+  -webkit-transition: opacity 250ms, -webkit-box-shadow 250ms;
+  transition: opacity 250ms, -webkit-box-shadow 250ms;
+  transition: opacity 250ms, box-shadow 250ms;
+  transition: opacity 250ms, box-shadow 250ms, -webkit-box-shadow 250ms;
+  -webkit-box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.25);
+          box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.25);
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.btn__order {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 100px;
+}
+
+.btn:hover {
+  opacity: 0.8;
+  -webkit-box-shadow: 1rem 1rem 20px rgba(0, 0, 0, 0.25);
+          box-shadow: 1rem 1rem 20px rgba(0, 0, 0, 0.25);
+}
+
 footer {
   background-color: #353535;
   padding: 25px;
@@ -274,7 +309,8 @@ footer .fa-hands-helping {
           align-items: center;
   padding-top: 10px;
   padding-left: 15px;
-  font-size: 20px;
+  font-size: 21px;
+  font-weight: 500;
 }
 
 .fill__keur {
@@ -467,10 +503,10 @@ footer .fa-hands-helping {
   padding: 20px;
   right: -70px;
   top: 0;
-  -webkit-transition: -webkit-transform 330ms ease-in-out;
-  transition: -webkit-transform 330ms ease-in-out;
-  transition: transform 330ms ease-in-out;
-  transition: transform 330ms ease-in-out, -webkit-transform 330ms ease-in-out;
+  -webkit-transition: -webkit-transform 430ms ease-in-out;
+  transition: -webkit-transform 430ms ease-in-out;
+  transition: transform 430ms ease-in-out;
+  transition: transform 430ms ease-in-out, -webkit-transform 430ms ease-in-out;
 }
 
 .cross .fa-check-circle {
@@ -482,43 +518,11 @@ footer .fa-hands-helping {
   transition: transform 500ms ease-in-out, -webkit-transform 500ms ease-in-out;
 }
 
-.btn__div {
-  margin-top: 40px;
-  margin-bottom: 50px;
-}
-
-.btn__order a {
+.bouton {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 0.75rem 1.5rem;
-  border-radius: 30px;
-  text-align: center;
-  color: #FFF;
-  font-weight: normal;
-  font-size: 15px;
-  font-family: "Roboto", sans-serif;
-  margin: 0 auto;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#FF79DA), to(#9356DC));
-  background-image: linear-gradient(#FF79DA, #9356DC);
-  -webkit-transition: opacity 250ms, -webkit-box-shadow 250ms;
-  transition: opacity 250ms, -webkit-box-shadow 250ms;
-  transition: opacity 250ms, box-shadow 250ms;
-  transition: opacity 250ms, box-shadow 250ms, -webkit-box-shadow 250ms;
-  -webkit-box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.25);
-          box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.25);
-}
-
-.btn__order:hover {
-  opacity: 0.8;
-  -webkit-transition: opacity 250ms, -webkit-box-shadow 250ms;
-  transition: opacity 250ms, -webkit-box-shadow 250ms;
-  transition: opacity 250ms, box-shadow 250ms;
-  transition: opacity 250ms, box-shadow 250ms, -webkit-box-shadow 250ms;
-  -webkit-box-shadow: 1rem 1rem 20px rgba(0, 0, 0, 0.25);
-          box-shadow: 1rem 1rem 20px rgba(0, 0, 0, 0.25);
+  padding-top: 20px;
+  padding-bottom: 30px;
 }
 /*# sourceMappingURL=styleP.css.map */
